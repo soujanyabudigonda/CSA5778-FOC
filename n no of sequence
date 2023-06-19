@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i, n;
+	 printf("enter the value of the n:");
+	 scanf("%d",&n);
+	 printf("\n");
+	 for(i=0;i<=n;i++)
+	 {
+	 	printf("%d\t",i)
+	 }
+	 getch();
+	return 0
